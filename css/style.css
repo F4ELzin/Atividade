@@ -1,0 +1,70 @@
+.header{
+    min-height: 70vh;
+    background-image: url(https://picsum.photos/1800/900);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+main{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.galeria{
+    width: 60%;
+    /* border: 2px solid red; */
+}
+
+.resumo{
+    width: 39%;
+    /* border: 2px solid red; */
+}
+
+.txt{
+    text-align: justify;
+}
+
+@media screen and (max-width:1200px){
+
+    #p01{
+        display: none;
+    }
+    #p02{
+        display: none;
+    }
+    #p03{
+        display: none;
+    }
+}
+
+@media screen and (max-width:1125px){
+    #p04{
+        display: none;
+    }
+
+}
+
+@media screen and (max-width:1065px){
+    #p05{
+        display: none;
+    }
+
+}
+
+@media screen and (max-width:960px){
+    #p06{
+        display: none;
+    }
+
+}
+
+@media screen and (max-width:758px){
+    #p07{
+        display: none;
+    }
+
+}
